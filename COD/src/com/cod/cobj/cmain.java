@@ -13,8 +13,9 @@ public class cmain
 			//ms.insert(5, "ganga", "bgk");
 			//ms.update(4,"arundati");
 			//ms.delete(3);
-			//ms.select();
-			ms.selectuser(5);
+			ms.select();
+			//ms.selectuser(5);
+			//ms.alter();
 		}
 		
 		catch (SQLException e)

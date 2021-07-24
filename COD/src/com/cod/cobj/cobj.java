@@ -10,6 +10,6 @@ public interface cobj
 	public void delete(int id) throws SQLException;
 	public void select() throws SQLException;
 	public void selectuser(int id) throws SQLException;
-	public void closeDB() throws SQLException;
+	public void alter() throws SQLException;
 	
 }

@@ -94,9 +94,11 @@ public class cmainmanipulate implements cobj
 	}
 
 	@Override
-	public void closeDB() throws SQLException {
+	public void alter() throws SQLException {
 		// TODO Auto-generated method stub
-		
+		String alter="alter table emp.stars rename to sales";
+		Statement stmt=con.createStatement();
+		stmt.execute(alter);
 	}
 	
 }
